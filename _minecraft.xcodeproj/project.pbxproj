@@ -719,6 +719,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					/usr/local/include,
+					"${PROJECT_DIR}/_minecraft",
 					"$(inherited)",
 				);
 				LIBRARY_SEARCH_PATHS = (
@@ -728,13 +729,13 @@
 					/usr/local/Cellar/glfw/3.3.2/lib,
 					/usr/local/Cellar/glew/2.1.0_1/lib,
 					/usr/local/Cellar/assimp/5.0.1/lib,
-					"$(inherited)",
 					/usr/local/Cellar/freetype/2.10.2/lib,
 					/usr/local/Cellar/bullet/2.89/lib,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/_minecraft";
 			};
 			name = Debug;
 		};
@@ -746,6 +747,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					/usr/local/include,
+					"${PROJECT_DIR}/_minecraft",
 					"$(inherited)",
 				);
 				LIBRARY_SEARCH_PATHS = (
@@ -755,13 +757,13 @@
 					/usr/local/Cellar/glfw/3.3.2/lib,
 					/usr/local/Cellar/glew/2.1.0_1/lib,
 					/usr/local/Cellar/assimp/5.0.1/lib,
-					"$(inherited)",
 					/usr/local/Cellar/freetype/2.10.2/lib,
 					/usr/local/Cellar/bullet/2.89/lib,
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/_minecraft";
 			};
 			name = Release;
 		};
