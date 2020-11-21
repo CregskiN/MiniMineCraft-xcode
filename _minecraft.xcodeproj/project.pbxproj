@@ -7,7 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C6F1EDA25683E520007FE16 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1ED925683E520007FE16 /* main.cpp */; };
+		6C3712632568AEE00051345D /* libBullet3Dynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD68C742568AB3F00027BF9 /* libBullet3Dynamics.a */; };
+		6C3712652568AEE10051345D /* libBullet3Dynamics.2.89.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3712642568AEE10051345D /* libBullet3Dynamics.2.89.dylib */; };
+		6C3712662568AEE10051345D /* libBullet3Dynamics.2.89.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6C3712642568AEE10051345D /* libBullet3Dynamics.2.89.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6C37126B2568B11D0051345D /* libBullet3Dynamics.2.89.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3712642568AEE10051345D /* libBullet3Dynamics.2.89.dylib */; };
+		6C37126C2568B11D0051345D /* libBullet3Dynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD68C742568AB3F00027BF9 /* libBullet3Dynamics.a */; };
+		6C37126D2568B11D0051345D /* libBullet3Dynamics.2.89.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3712642568AEE10051345D /* libBullet3Dynamics.2.89.dylib */; };
+		6C3712902568B1B30051345D /* libBulletDynamics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C37128A2568B11F0051345D /* libBulletDynamics.a */; };
+		6C3712912568B1B30051345D /* libBulletDynamics.2.89.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C37126E2568B11E0051345D /* libBulletDynamics.2.89.dylib */; };
+		6C3712922568B1B30051345D /* libBulletDynamics.2.89.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6C37126E2568B11E0051345D /* libBulletDynamics.2.89.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6C3712932568B22C0051345D /* libLinearMath.2.89.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3712762568B11E0051345D /* libLinearMath.2.89.dylib */; };
+		6C3712942568B22C0051345D /* libLinearMath.2.89.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6C3712762568B11E0051345D /* libLinearMath.2.89.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6C3712952568B22C0051345D /* libLinearMath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3712772568B11E0051345D /* libLinearMath.a */; };
+		6C6F1EE225683EA40007FE16 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F1EE125683EA40007FE16 /* OpenGL.framework */; };
+		6C6F1F96256841EA0007FE16 /* SkyDome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F4B256841E60007FE16 /* SkyDome.cpp */; };
+		6C6F1F97256841EA0007FE16 /* Block.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F51256841E60007FE16 /* Block.cpp */; };
+		6C6F1F98256841EA0007FE16 /* CubemapTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F55256841E70007FE16 /* CubemapTexture.cpp */; };
+		6C6F1F99256841EA0007FE16 /* HeightMapGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F57256841E70007FE16 /* HeightMapGenerator.cpp */; };
+		6C6F1F9A256841EA0007FE16 /* Geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F58256841E70007FE16 /* Geometry.cpp */; };
+		6C6F1F9B256841EA0007FE16 /* BlockTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F5A256841E70007FE16 /* BlockTexture.cpp */; };
+		6C6F1F9C256841EA0007FE16 /* AABB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F64256841E70007FE16 /* AABB.cpp */; };
+		6C6F1F9D256841EA0007FE16 /* Control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F68256841E70007FE16 /* Control.cpp */; };
+		6C6F1F9E256841EA0007FE16 /* MyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F72256841E80007FE16 /* MyScene.cpp */; };
+		6C6F1F9F256841EA0007FE16 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F75256841E80007FE16 /* main.cpp */; };
+		6C6F1FA0256841EA0007FE16 /* SingletonModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F76256841E80007FE16 /* SingletonModel.cpp */; };
+		6C6F1FA1256841EA0007FE16 /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F79256841E80007FE16 /* Ray.cpp */; };
+		6C6F1FA2256841EA0007FE16 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F7A256841E80007FE16 /* texture.cpp */; };
+		6C6F1FA3256841EA0007FE16 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F7B256841E90007FE16 /* World.cpp */; };
+		6C6F1FA4256841EA0007FE16 /* BlockUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F7D256841E90007FE16 /* BlockUtil.cpp */; };
+		6C6F1FA5256841EA0007FE16 /* LandCoverGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F7E256841E90007FE16 /* LandCoverGenerator.cpp */; };
+		6C6F1FA6256841EA0007FE16 /* BlockGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F81256841E90007FE16 /* BlockGenerator.cpp */; };
+		6C6F1FA7256841EA0007FE16 /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F82256841E90007FE16 /* mesh.cpp */; };
+		6C6F1FA8256841EA0007FE16 /* WorldInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F83256841E90007FE16 /* WorldInfo.cpp */; };
+		6C6F1FA9256841EA0007FE16 /* math_3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F87256841E90007FE16 /* math_3d.cpp */; };
+		6C6F1FAA256841EA0007FE16 /* Section.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F88256841E90007FE16 /* Section.cpp */; };
+		6C6F1FAB256841EA0007FE16 /* Chunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F89256841EA0007FE16 /* Chunk.cpp */; };
+		6C6F1FAC256841EA0007FE16 /* BlockData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F8A256841EA0007FE16 /* BlockData.cpp */; };
+		6C6F1FAD256841EA0007FE16 /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F8D256841EA0007FE16 /* Model.cpp */; };
+		6C6F1FAE256841EA0007FE16 /* CoordUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F8E256841EA0007FE16 /* CoordUtil.cpp */; };
+		6C6F1FAF256841EA0007FE16 /* noise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F8F256841EA0007FE16 /* noise.cpp */; };
+		6C6F1FB0256841EA0007FE16 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F91256841EA0007FE16 /* glad.c */; };
+		6C6F1FB1256841EA0007FE16 /* SingletonShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F92256841EA0007FE16 /* SingletonShader.cpp */; };
+		6C6F1FB2256841EA0007FE16 /* GlobalLight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F95256841EA0007FE16 /* GlobalLight.cpp */; };
+		6C6F1FB42568446A0007FE16 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F1FB32568446A0007FE16 /* libglfw.3.3.dylib */; };
+		6C6F1FB52568446A0007FE16 /* libglfw.3.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6C6F1FB32568446A0007FE16 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6C6F1FB8256844840007FE16 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F1FB7256844840007FE16 /* libGLEW.2.1.0.dylib */; };
+		6C6F1FB9256844840007FE16 /* libGLEW.2.1.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6C6F1FB7256844840007FE16 /* libGLEW.2.1.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6C6F1FBB256849250007FE16 /* libassimp.5.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F1FBA256849250007FE16 /* libassimp.5.0.0.dylib */; };
+		6C6F1FBC256849250007FE16 /* libassimp.5.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6C6F1FBA256849250007FE16 /* libassimp.5.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +67,184 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		6C6F1FB62568446A0007FE16 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C3712662568AEE10051345D /* libBullet3Dynamics.2.89.dylib in Embed Libraries */,
+				6C6F1FB9256844840007FE16 /* libGLEW.2.1.0.dylib in Embed Libraries */,
+				6C6F1FB52568446A0007FE16 /* libglfw.3.3.dylib in Embed Libraries */,
+				6C3712942568B22C0051345D /* libLinearMath.2.89.dylib in Embed Libraries */,
+				6C6F1FBC256849250007FE16 /* libassimp.5.0.0.dylib in Embed Libraries */,
+				6C3712922568B1B30051345D /* libBulletDynamics.2.89.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C3712642568AEE10051345D /* libBullet3Dynamics.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Dynamics.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Dynamics.2.89.dylib; sourceTree = "<group>"; };
+		6C37126E2568B11E0051345D /* libBulletDynamics.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletDynamics.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletDynamics.2.89.dylib; sourceTree = "<group>"; };
+		6C37126F2568B11E0051345D /* libBulletSoftBody.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletSoftBody.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletSoftBody.2.89.dylib; sourceTree = "<group>"; };
+		6C3712702568B11E0051345D /* libBulletInverseDynamicsUtils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletInverseDynamicsUtils.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletInverseDynamicsUtils.a; sourceTree = "<group>"; };
+		6C3712712568B11E0051345D /* libBullet3Geometry.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Geometry.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Geometry.2.89.dylib; sourceTree = "<group>"; };
+		6C3712722568B11E0051345D /* libBullet3Geometry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBullet3Geometry.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Geometry.a; sourceTree = "<group>"; };
+		6C3712732568B11E0051345D /* libBullet3Common.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Common.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Common.2.89.dylib; sourceTree = "<group>"; };
+		6C3712742568B11E0051345D /* libConvexDecomposition.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libConvexDecomposition.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libConvexDecomposition.2.89.dylib; sourceTree = "<group>"; };
+		6C3712752568B11E0051345D /* libHACD.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHACD.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libHACD.2.89.dylib; sourceTree = "<group>"; };
+		6C3712762568B11E0051345D /* libLinearMath.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLinearMath.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libLinearMath.2.89.dylib; sourceTree = "<group>"; };
+		6C3712772568B11E0051345D /* libLinearMath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLinearMath.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libLinearMath.a; sourceTree = "<group>"; };
+		6C3712782568B11E0051345D /* libBulletXmlWorldImporter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletXmlWorldImporter.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletXmlWorldImporter.a; sourceTree = "<group>"; };
+		6C3712792568B11E0051345D /* libBulletInverseDynamics.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletInverseDynamics.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletInverseDynamics.2.89.dylib; sourceTree = "<group>"; };
+		6C37127A2568B11E0051345D /* libBullet3OpenCL_clew.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBullet3OpenCL_clew.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3OpenCL_clew.a; sourceTree = "<group>"; };
+		6C37127B2568B11E0051345D /* libBulletCollision.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletCollision.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletCollision.2.89.dylib; sourceTree = "<group>"; };
+		6C37127C2568B11E0051345D /* libBulletXmlWorldImporter.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletXmlWorldImporter.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletXmlWorldImporter.2.89.dylib; sourceTree = "<group>"; };
+		6C37127D2568B11E0051345D /* libGIMPACTUtils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGIMPACTUtils.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libGIMPACTUtils.a; sourceTree = "<group>"; };
+		6C37127E2568B11E0051345D /* libBulletRobotics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletRobotics.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletRobotics.a; sourceTree = "<group>"; };
+		6C37127F2568B11F0051345D /* libBulletCollision.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletCollision.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletCollision.a; sourceTree = "<group>"; };
+		6C3712802568B11F0051345D /* libConvexDecomposition.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConvexDecomposition.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libConvexDecomposition.a; sourceTree = "<group>"; };
+		6C3712812568B11F0051345D /* libBullet3Common.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBullet3Common.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Common.a; sourceTree = "<group>"; };
+		6C3712822568B11F0051345D /* libBullet3Collision.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Collision.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Collision.2.89.dylib; sourceTree = "<group>"; };
+		6C3712832568B11F0051345D /* libBullet3OpenCL_clew.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3OpenCL_clew.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3OpenCL_clew.2.89.dylib; sourceTree = "<group>"; };
+		6C3712842568B11F0051345D /* libBulletSoftBody.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletSoftBody.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletSoftBody.a; sourceTree = "<group>"; };
+		6C3712852568B11F0051345D /* libBulletWorldImporter.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletWorldImporter.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletWorldImporter.2.89.dylib; sourceTree = "<group>"; };
+		6C3712862568B11F0051345D /* libBulletWorldImporter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletWorldImporter.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletWorldImporter.a; sourceTree = "<group>"; };
+		6C3712872568B11F0051345D /* libBulletFileLoader.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletFileLoader.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletFileLoader.2.89.dylib; sourceTree = "<group>"; };
+		6C3712882568B11F0051345D /* libBulletInverseDynamics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletInverseDynamics.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletInverseDynamics.a; sourceTree = "<group>"; };
+		6C3712892568B11F0051345D /* libBulletRobotics.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletRobotics.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletRobotics.2.89.dylib; sourceTree = "<group>"; };
+		6C37128A2568B11F0051345D /* libBulletDynamics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletDynamics.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletDynamics.a; sourceTree = "<group>"; };
+		6C37128B2568B11F0051345D /* libBullet3Collision.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBullet3Collision.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Collision.a; sourceTree = "<group>"; };
+		6C37128C2568B11F0051345D /* libBulletFileLoader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBulletFileLoader.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletFileLoader.a; sourceTree = "<group>"; };
+		6C37128D2568B11F0051345D /* libBulletInverseDynamicsUtils.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletInverseDynamicsUtils.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletInverseDynamicsUtils.2.89.dylib; sourceTree = "<group>"; };
+		6C37128E2568B11F0051345D /* libGIMPACTUtils.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGIMPACTUtils.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libGIMPACTUtils.2.89.dylib; sourceTree = "<group>"; };
+		6C37128F2568B11F0051345D /* libHACD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHACD.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libHACD.a; sourceTree = "<group>"; };
+		6C3712972568B7600051345D /* texture_不透明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "texture_不透明.png"; sourceTree = "<group>"; };
+		6C37129A2568B7600051345D /* Cam_0_Front+Z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_0_Front+Z.png"; sourceTree = "<group>"; };
+		6C37129B2568B7600051345D /* Cam_2_Left+X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_2_Left+X.png"; sourceTree = "<group>"; };
+		6C37129C2568B7600051345D /* Cam_1_Back-Z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_1_Back-Z.png"; sourceTree = "<group>"; };
+		6C37129D2568B7600051345D /* Cam_5_Down-Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_5_Down-Y.png"; sourceTree = "<group>"; };
+		6C37129E2568B7600051345D /* Cam_4_Up+Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_4_Up+Y.png"; sourceTree = "<group>"; };
+		6C37129F2568B7600051345D /* Cam_3_Right-X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_3_Right-X.png"; sourceTree = "<group>"; };
+		6C3712A12568B7600051345D /* Cam_0_Front+Z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_0_Front+Z.png"; sourceTree = "<group>"; };
+		6C3712A22568B7600051345D /* Cam_2_Left+X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_2_Left+X.png"; sourceTree = "<group>"; };
+		6C3712A32568B7600051345D /* Cam_1_Back-Z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_1_Back-Z.png"; sourceTree = "<group>"; };
+		6C3712A42568B7600051345D /* Cam_5_Down-Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_5_Down-Y.png"; sourceTree = "<group>"; };
+		6C3712A52568B7600051345D /* Cam_4_Up+Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_4_Up+Y.png"; sourceTree = "<group>"; };
+		6C3712A62568B7600051345D /* Cam_3_Right-X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cam_3_Right-X.png"; sourceTree = "<group>"; };
+		6C3712A72568B7600051345D /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		6C3712A82568B7600051345D /* SkyDome.FBX */ = {isa = PBXFileReference; lastKnownFileType = file; path = SkyDome.FBX; sourceTree = "<group>"; };
+		6C3712AA2568B7600051345D /* sp3bot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sp3bot.jpg; sourceTree = "<group>"; };
+		6C3712AB2568B7600051345D /* sp3back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sp3back.jpg; sourceTree = "<group>"; };
+		6C3712AC2568B7600051345D /* sp3right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sp3right.jpg; sourceTree = "<group>"; };
+		6C3712AD2568B7600051345D /* sp3front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sp3front.jpg; sourceTree = "<group>"; };
+		6C3712AE2568B7600051345D /* sp3top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sp3top.jpg; sourceTree = "<group>"; };
+		6C3712AF2568B7600051345D /* sp3left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sp3left.jpg; sourceTree = "<group>"; };
+		6C3712B02568B7600051345D /* sphere.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.mtl; sourceTree = "<group>"; };
+		6C3712B12568B7600051345D /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		6C3712B22568B7600051345D /* texture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture1.png; sourceTree = "<group>"; };
 		6C6F1ED625683E520007FE16 /* _minecraft */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = _minecraft; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C6F1ED925683E520007FE16 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6C6F1EE125683EA40007FE16 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6C6F1F4B256841E60007FE16 /* SkyDome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SkyDome.cpp; sourceTree = "<group>"; };
+		6C6F1F4C256841E60007FE16 /* noise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noise.h; sourceTree = "<group>"; };
+		6C6F1F4D256841E60007FE16 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		6C6F1F4E256841E60007FE16 /* skyDome.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = skyDome.vs; sourceTree = "<group>"; };
+		6C6F1F4F256841E60007FE16 /* BlockUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockUtil.h; sourceTree = "<group>"; };
+		6C6F1F50256841E60007FE16 /* model_loading.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = model_loading.fs; sourceTree = "<group>"; };
+		6C6F1F51256841E60007FE16 /* Block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
+		6C6F1F52256841E60007FE16 /* SingletonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonModel.h; sourceTree = "<group>"; };
+		6C6F1F53256841E70007FE16 /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point.h; sourceTree = "<group>"; };
+		6C6F1F54256841E70007FE16 /* BlockGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockGenerator.h; sourceTree = "<group>"; };
+		6C6F1F55256841E70007FE16 /* CubemapTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CubemapTexture.cpp; sourceTree = "<group>"; };
+		6C6F1F56256841E70007FE16 /* Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
+		6C6F1F57256841E70007FE16 /* HeightMapGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeightMapGenerator.cpp; sourceTree = "<group>"; };
+		6C6F1F58256841E70007FE16 /* Geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Geometry.cpp; sourceTree = "<group>"; };
+		6C6F1F59256841E70007FE16 /* math_3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math_3d.h; sourceTree = "<group>"; };
+		6C6F1F5A256841E70007FE16 /* BlockTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlockTexture.cpp; sourceTree = "<group>"; };
+		6C6F1F5B256841E70007FE16 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		6C6F1F5C256841E70007FE16 /* BlockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockData.h; sourceTree = "<group>"; };
+		6C6F1F5D256841E70007FE16 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		6C6F1F5E256841E70007FE16 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		6C6F1F5F256841E70007FE16 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		6C6F1F60256841E70007FE16 /* AABB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABB.h; sourceTree = "<group>"; };
+		6C6F1F61256841E70007FE16 /* SkyDome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyDome.h; sourceTree = "<group>"; };
+		6C6F1F62256841E70007FE16 /* HelloOpenGL_00.vcxproj.user */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HelloOpenGL_00.vcxproj.user; sourceTree = "<group>"; };
+		6C6F1F63256841E70007FE16 /* WorldInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldInfo.h; sourceTree = "<group>"; };
+		6C6F1F64256841E70007FE16 /* AABB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AABB.cpp; sourceTree = "<group>"; };
+		6C6F1F65256841E70007FE16 /* HeightMapGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeightMapGenerator.h; sourceTree = "<group>"; };
+		6C6F1F66256841E70007FE16 /* skyDome.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = skyDome.fs; sourceTree = "<group>"; };
+		6C6F1F67256841E70007FE16 /* model_loading.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = model_loading.vs; sourceTree = "<group>"; };
+		6C6F1F68256841E70007FE16 /* Control.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Control.cpp; sourceTree = "<group>"; };
+		6C6F1F69256841E70007FE16 /* LandCoverGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandCoverGenerator.h; sourceTree = "<group>"; };
+		6C6F1F6A256841E80007FE16 /* HelloOpenGL_00.vcxproj.filters */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HelloOpenGL_00.vcxproj.filters; sourceTree = "<group>"; };
+		6C6F1F6C256841E80007FE16 /* model_load_with_light.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = model_load_with_light.fs; sourceTree = "<group>"; };
+		6C6F1F6D256841E80007FE16 /* model_without_light.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = model_without_light.vs; sourceTree = "<group>"; };
+		6C6F1F6E256841E80007FE16 /* skyDome.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = skyDome.vs; sourceTree = "<group>"; };
+		6C6F1F6F256841E80007FE16 /* model_without_light.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = model_without_light.fs; sourceTree = "<group>"; };
+		6C6F1F70256841E80007FE16 /* skyDome.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = skyDome.fs; sourceTree = "<group>"; };
+		6C6F1F71256841E80007FE16 /* model_load_with_light.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = model_load_with_light.vs; sourceTree = "<group>"; };
+		6C6F1F72256841E80007FE16 /* MyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyScene.cpp; sourceTree = "<group>"; };
+		6C6F1F73256841E80007FE16 /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
+		6C6F1F74256841E80007FE16 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		6C6F1F75256841E80007FE16 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6C6F1F76256841E80007FE16 /* SingletonModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingletonModel.cpp; sourceTree = "<group>"; };
+		6C6F1F77256841E80007FE16 /* minecraft.mdproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = minecraft.mdproj; sourceTree = "<group>"; };
+		6C6F1F78256841E80007FE16 /* CoordUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordUtil.h; sourceTree = "<group>"; };
+		6C6F1F79256841E80007FE16 /* Ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ray.cpp; sourceTree = "<group>"; };
+		6C6F1F7A256841E80007FE16 /* texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = texture.cpp; sourceTree = "<group>"; };
+		6C6F1F7B256841E90007FE16 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		6C6F1F7C256841E90007FE16 /* GlobalLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalLight.h; sourceTree = "<group>"; };
+		6C6F1F7D256841E90007FE16 /* BlockUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlockUtil.cpp; sourceTree = "<group>"; };
+		6C6F1F7E256841E90007FE16 /* LandCoverGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LandCoverGenerator.cpp; sourceTree = "<group>"; };
+		6C6F1F7F256841E90007FE16 /* texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture.h; sourceTree = "<group>"; };
+		6C6F1F80256841E90007FE16 /* BlockTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTexture.h; sourceTree = "<group>"; };
+		6C6F1F81256841E90007FE16 /* BlockGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlockGenerator.cpp; sourceTree = "<group>"; };
+		6C6F1F82256841E90007FE16 /* mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mesh.cpp; sourceTree = "<group>"; };
+		6C6F1F83256841E90007FE16 /* WorldInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorldInfo.cpp; sourceTree = "<group>"; };
+		6C6F1F84256841E90007FE16 /* Chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chunk.h; sourceTree = "<group>"; };
+		6C6F1F85256841E90007FE16 /* blockID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockID.h; sourceTree = "<group>"; };
+		6C6F1F86256841E90007FE16 /* SingletonShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonShader.h; sourceTree = "<group>"; };
+		6C6F1F87256841E90007FE16 /* math_3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = math_3d.cpp; sourceTree = "<group>"; };
+		6C6F1F88256841E90007FE16 /* Section.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Section.cpp; sourceTree = "<group>"; };
+		6C6F1F89256841EA0007FE16 /* Chunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Chunk.cpp; sourceTree = "<group>"; };
+		6C6F1F8A256841EA0007FE16 /* BlockData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlockData.cpp; sourceTree = "<group>"; };
+		6C6F1F8B256841EA0007FE16 /* CubemapTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubemapTexture.h; sourceTree = "<group>"; };
+		6C6F1F8C256841EA0007FE16 /* mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mesh.h; sourceTree = "<group>"; };
+		6C6F1F8D256841EA0007FE16 /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model.cpp; sourceTree = "<group>"; };
+		6C6F1F8E256841EA0007FE16 /* CoordUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoordUtil.cpp; sourceTree = "<group>"; };
+		6C6F1F8F256841EA0007FE16 /* noise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = noise.cpp; sourceTree = "<group>"; };
+		6C6F1F90256841EA0007FE16 /* MyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		6C6F1F91256841EA0007FE16 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		6C6F1F92256841EA0007FE16 /* SingletonShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingletonShader.cpp; sourceTree = "<group>"; };
+		6C6F1F93256841EA0007FE16 /* HelloOpenGL_00.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HelloOpenGL_00.vcxproj; sourceTree = "<group>"; };
+		6C6F1F94256841EA0007FE16 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		6C6F1F95256841EA0007FE16 /* GlobalLight.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalLight.cpp; sourceTree = "<group>"; };
+		6C6F1FB32568446A0007FE16 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		6C6F1FB7256844840007FE16 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		6C6F1FBA256849250007FE16 /* libassimp.5.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.5.0.0.dylib; path = ../../../../../usr/local/Cellar/assimp/5.0.1/lib/libassimp.5.0.0.dylib; sourceTree = "<group>"; };
+		6CD68C742568AB3F00027BF9 /* libBullet3Dynamics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBullet3Dynamics.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Dynamics.a; sourceTree = "<group>"; };
+		6CD68CA02568AD3A00027BF9 /* libBullet3Dynamics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Dynamics.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Dynamics.dylib; sourceTree = "<group>"; };
+		6CD68CA62568ADE500027BF9 /* libLinearMath.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLinearMath.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libLinearMath.dylib; sourceTree = "<group>"; };
+		6CD68CA72568ADE500027BF9 /* libBulletXmlWorldImporter.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletXmlWorldImporter.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletXmlWorldImporter.dylib; sourceTree = "<group>"; };
+		6CD68CA82568ADE500027BF9 /* libBulletInverseDynamicsUtils.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletInverseDynamicsUtils.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletInverseDynamicsUtils.dylib; sourceTree = "<group>"; };
+		6CD68CA92568ADE500027BF9 /* libGIMPACTUtils.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGIMPACTUtils.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libGIMPACTUtils.dylib; sourceTree = "<group>"; };
+		6CD68CAA2568ADE500027BF9 /* libBulletRobotics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletRobotics.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletRobotics.dylib; sourceTree = "<group>"; };
+		6CD68CAB2568ADE500027BF9 /* libConvexDecomposition.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libConvexDecomposition.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libConvexDecomposition.dylib; sourceTree = "<group>"; };
+		6CD68CAC2568ADE500027BF9 /* libBullet3Collision.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Collision.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Collision.dylib; sourceTree = "<group>"; };
+		6CD68CAD2568ADE500027BF9 /* libBullet3OpenCL_clew.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3OpenCL_clew.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3OpenCL_clew.dylib; sourceTree = "<group>"; };
+		6CD68CAE2568ADE500027BF9 /* libBullet2FileLoader.2.89.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet2FileLoader.2.89.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet2FileLoader.2.89.dylib; sourceTree = "<group>"; };
+		6CD68CAF2568ADE500027BF9 /* libBulletInverseDynamics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletInverseDynamics.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletInverseDynamics.dylib; sourceTree = "<group>"; };
+		6CD68CB02568ADE500027BF9 /* libBulletDynamics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletDynamics.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletDynamics.dylib; sourceTree = "<group>"; };
+		6CD68CB12568ADE500027BF9 /* libBullet3Geometry.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Geometry.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Geometry.dylib; sourceTree = "<group>"; };
+		6CD68CB22568ADE500027BF9 /* libBulletCollision.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletCollision.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletCollision.dylib; sourceTree = "<group>"; };
+		6CD68CB32568ADE600027BF9 /* libBulletWorldImporter.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletWorldImporter.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletWorldImporter.dylib; sourceTree = "<group>"; };
+		6CD68CB42568ADE600027BF9 /* libBulletFileLoader.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletFileLoader.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletFileLoader.dylib; sourceTree = "<group>"; };
+		6CD68CB52568ADE600027BF9 /* libBullet3Common.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Common.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Common.dylib; sourceTree = "<group>"; };
+		6CD68CB62568ADE600027BF9 /* libBullet2FileLoader.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBullet2FileLoader.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet2FileLoader.a; sourceTree = "<group>"; };
+		6CD68CB72568ADE600027BF9 /* libBulletSoftBody.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBulletSoftBody.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBulletSoftBody.dylib; sourceTree = "<group>"; };
+		6CD68CB82568ADE600027BF9 /* libHACD.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHACD.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libHACD.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +252,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6F1FB8256844840007FE16 /* libGLEW.2.1.0.dylib in Frameworks */,
+				6C3712952568B22C0051345D /* libLinearMath.a in Frameworks */,
+				6C3712632568AEE00051345D /* libBullet3Dynamics.a in Frameworks */,
+				6C3712652568AEE10051345D /* libBullet3Dynamics.2.89.dylib in Frameworks */,
+				6C37126B2568B11D0051345D /* libBullet3Dynamics.2.89.dylib in Frameworks */,
+				6C6F1FB42568446A0007FE16 /* libglfw.3.3.dylib in Frameworks */,
+				6C37126D2568B11D0051345D /* libBullet3Dynamics.2.89.dylib in Frameworks */,
+				6C6F1FBB256849250007FE16 /* libassimp.5.0.0.dylib in Frameworks */,
+				6C3712902568B1B30051345D /* libBulletDynamics.a in Frameworks */,
+				6C6F1EE225683EA40007FE16 /* OpenGL.framework in Frameworks */,
+				6C3712932568B22C0051345D /* libLinearMath.2.89.dylib in Frameworks */,
+				6C37126C2568B11D0051345D /* libBullet3Dynamics.a in Frameworks */,
+				6C3712912568B1B30051345D /* libBulletDynamics.2.89.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C3712962568B7600051345D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C3712972568B7600051345D /* texture_不透明.png */,
+				6C3712982568B7600051345D /* skyDome */,
+				6C3712B12568B7600051345D /* texture.png */,
+				6C3712B22568B7600051345D /* texture1.png */,
+			);
+			name = resources;
+			path = ../../../../Downloads/resources;
+			sourceTree = "<group>";
+		};
+		6C3712982568B7600051345D /* skyDome */ = {
+			isa = PBXGroup;
+			children = (
+				6C3712992568B7600051345D /* blueSkyNormal */,
+				6C3712A02568B7600051345D /* blueSkyWithCloud */,
+				6C3712A72568B7600051345D /* sphere.obj */,
+				6C3712A82568B7600051345D /* SkyDome.FBX */,
+				6C3712A92568B7600051345D /* oglDemo */,
+				6C3712B02568B7600051345D /* sphere.mtl */,
+			);
+			path = skyDome;
+			sourceTree = "<group>";
+		};
+		6C3712992568B7600051345D /* blueSkyNormal */ = {
+			isa = PBXGroup;
+			children = (
+				6C37129A2568B7600051345D /* Cam_0_Front+Z.png */,
+				6C37129B2568B7600051345D /* Cam_2_Left+X.png */,
+				6C37129C2568B7600051345D /* Cam_1_Back-Z.png */,
+				6C37129D2568B7600051345D /* Cam_5_Down-Y.png */,
+				6C37129E2568B7600051345D /* Cam_4_Up+Y.png */,
+				6C37129F2568B7600051345D /* Cam_3_Right-X.png */,
+			);
+			path = blueSkyNormal;
+			sourceTree = "<group>";
+		};
+		6C3712A02568B7600051345D /* blueSkyWithCloud */ = {
+			isa = PBXGroup;
+			children = (
+				6C3712A12568B7600051345D /* Cam_0_Front+Z.png */,
+				6C3712A22568B7600051345D /* Cam_2_Left+X.png */,
+				6C3712A32568B7600051345D /* Cam_1_Back-Z.png */,
+				6C3712A42568B7600051345D /* Cam_5_Down-Y.png */,
+				6C3712A52568B7600051345D /* Cam_4_Up+Y.png */,
+				6C3712A62568B7600051345D /* Cam_3_Right-X.png */,
+			);
+			path = blueSkyWithCloud;
+			sourceTree = "<group>";
+		};
+		6C3712A92568B7600051345D /* oglDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6C3712AA2568B7600051345D /* sp3bot.jpg */,
+				6C3712AB2568B7600051345D /* sp3back.jpg */,
+				6C3712AC2568B7600051345D /* sp3right.jpg */,
+				6C3712AD2568B7600051345D /* sp3front.jpg */,
+				6C3712AE2568B7600051345D /* sp3top.jpg */,
+				6C3712AF2568B7600051345D /* sp3left.jpg */,
+			);
+			path = oglDemo;
+			sourceTree = "<group>";
+		};
 		6C6F1ECD25683E520007FE16 = {
 			isa = PBXGroup;
 			children = (
 				6C6F1ED825683E520007FE16 /* _minecraft */,
 				6C6F1ED725683E520007FE16 /* Products */,
+				6C6F1EE025683EA30007FE16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +355,158 @@
 		6C6F1ED825683E520007FE16 /* _minecraft */ = {
 			isa = PBXGroup;
 			children = (
-				6C6F1ED925683E520007FE16 /* main.cpp */,
+				6C3712962568B7600051345D /* resources */,
+				6C6F1F64256841E70007FE16 /* AABB.cpp */,
+				6C6F1F60256841E70007FE16 /* AABB.h */,
+				6C6F1F51256841E60007FE16 /* Block.cpp */,
+				6C6F1F4D256841E60007FE16 /* Block.h */,
+				6C6F1F8A256841EA0007FE16 /* BlockData.cpp */,
+				6C6F1F5C256841E70007FE16 /* BlockData.h */,
+				6C6F1F81256841E90007FE16 /* BlockGenerator.cpp */,
+				6C6F1F54256841E70007FE16 /* BlockGenerator.h */,
+				6C6F1F85256841E90007FE16 /* blockID.h */,
+				6C6F1F5A256841E70007FE16 /* BlockTexture.cpp */,
+				6C6F1F80256841E90007FE16 /* BlockTexture.h */,
+				6C6F1F7D256841E90007FE16 /* BlockUtil.cpp */,
+				6C6F1F4F256841E60007FE16 /* BlockUtil.h */,
+				6C6F1F89256841EA0007FE16 /* Chunk.cpp */,
+				6C6F1F84256841E90007FE16 /* Chunk.h */,
+				6C6F1F68256841E70007FE16 /* Control.cpp */,
+				6C6F1F56256841E70007FE16 /* Control.h */,
+				6C6F1F8E256841EA0007FE16 /* CoordUtil.cpp */,
+				6C6F1F78256841E80007FE16 /* CoordUtil.h */,
+				6C6F1F55256841E70007FE16 /* CubemapTexture.cpp */,
+				6C6F1F8B256841EA0007FE16 /* CubemapTexture.h */,
+				6C6F1F58256841E70007FE16 /* Geometry.cpp */,
+				6C6F1F5E256841E70007FE16 /* Geometry.h */,
+				6C6F1F91256841EA0007FE16 /* glad.c */,
+				6C6F1F95256841EA0007FE16 /* GlobalLight.cpp */,
+				6C6F1F7C256841E90007FE16 /* GlobalLight.h */,
+				6C6F1F57256841E70007FE16 /* HeightMapGenerator.cpp */,
+				6C6F1F65256841E70007FE16 /* HeightMapGenerator.h */,
+				6C6F1F93256841EA0007FE16 /* HelloOpenGL_00.vcxproj */,
+				6C6F1F6A256841E80007FE16 /* HelloOpenGL_00.vcxproj.filters */,
+				6C6F1F62256841E70007FE16 /* HelloOpenGL_00.vcxproj.user */,
+				6C6F1F7E256841E90007FE16 /* LandCoverGenerator.cpp */,
+				6C6F1F69256841E70007FE16 /* LandCoverGenerator.h */,
+				6C6F1F75256841E80007FE16 /* main.cpp */,
+				6C6F1F87256841E90007FE16 /* math_3d.cpp */,
+				6C6F1F59256841E70007FE16 /* math_3d.h */,
+				6C6F1F82256841E90007FE16 /* mesh.cpp */,
+				6C6F1F8C256841EA0007FE16 /* mesh.h */,
+				6C6F1F77256841E80007FE16 /* minecraft.mdproj */,
+				6C6F1F50256841E60007FE16 /* model_loading.fs */,
+				6C6F1F67256841E70007FE16 /* model_loading.vs */,
+				6C6F1F8D256841EA0007FE16 /* Model.cpp */,
+				6C6F1F5F256841E70007FE16 /* Model.h */,
+				6C6F1F72256841E80007FE16 /* MyScene.cpp */,
+				6C6F1F90256841EA0007FE16 /* MyScene.h */,
+				6C6F1F8F256841EA0007FE16 /* noise.cpp */,
+				6C6F1F4C256841E60007FE16 /* noise.h */,
+				6C6F1F53256841E70007FE16 /* Point.h */,
+				6C6F1F79256841E80007FE16 /* Ray.cpp */,
+				6C6F1F73256841E80007FE16 /* Ray.h */,
+				6C6F1F88256841E90007FE16 /* Section.cpp */,
+				6C6F1F74256841E80007FE16 /* Section.h */,
+				6C6F1F6B256841E80007FE16 /* shader */,
+				6C6F1F76256841E80007FE16 /* SingletonModel.cpp */,
+				6C6F1F52256841E60007FE16 /* SingletonModel.h */,
+				6C6F1F92256841EA0007FE16 /* SingletonShader.cpp */,
+				6C6F1F86256841E90007FE16 /* SingletonShader.h */,
+				6C6F1F4B256841E60007FE16 /* SkyDome.cpp */,
+				6C6F1F66256841E70007FE16 /* skyDome.fs */,
+				6C6F1F61256841E70007FE16 /* SkyDome.h */,
+				6C6F1F4E256841E60007FE16 /* skyDome.vs */,
+				6C6F1F94256841EA0007FE16 /* Square.h */,
+				6C6F1F7A256841E80007FE16 /* texture.cpp */,
+				6C6F1F7F256841E90007FE16 /* texture.h */,
+				6C6F1F5B256841E70007FE16 /* util.h */,
+				6C6F1F7B256841E90007FE16 /* World.cpp */,
+				6C6F1F5D256841E70007FE16 /* World.h */,
+				6C6F1F83256841E90007FE16 /* WorldInfo.cpp */,
+				6C6F1F63256841E70007FE16 /* WorldInfo.h */,
 			);
 			path = _minecraft;
+			sourceTree = "<group>";
+		};
+		6C6F1EE025683EA30007FE16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3712822568B11F0051345D /* libBullet3Collision.2.89.dylib */,
+				6C37128B2568B11F0051345D /* libBullet3Collision.a */,
+				6C3712732568B11E0051345D /* libBullet3Common.2.89.dylib */,
+				6C3712812568B11F0051345D /* libBullet3Common.a */,
+				6C3712712568B11E0051345D /* libBullet3Geometry.2.89.dylib */,
+				6C3712722568B11E0051345D /* libBullet3Geometry.a */,
+				6C3712832568B11F0051345D /* libBullet3OpenCL_clew.2.89.dylib */,
+				6C37127A2568B11E0051345D /* libBullet3OpenCL_clew.a */,
+				6C37127B2568B11E0051345D /* libBulletCollision.2.89.dylib */,
+				6C37127F2568B11F0051345D /* libBulletCollision.a */,
+				6C37126E2568B11E0051345D /* libBulletDynamics.2.89.dylib */,
+				6C37128A2568B11F0051345D /* libBulletDynamics.a */,
+				6C3712872568B11F0051345D /* libBulletFileLoader.2.89.dylib */,
+				6C37128C2568B11F0051345D /* libBulletFileLoader.a */,
+				6C3712792568B11E0051345D /* libBulletInverseDynamics.2.89.dylib */,
+				6C3712882568B11F0051345D /* libBulletInverseDynamics.a */,
+				6C37128D2568B11F0051345D /* libBulletInverseDynamicsUtils.2.89.dylib */,
+				6C3712702568B11E0051345D /* libBulletInverseDynamicsUtils.a */,
+				6C3712892568B11F0051345D /* libBulletRobotics.2.89.dylib */,
+				6C37127E2568B11E0051345D /* libBulletRobotics.a */,
+				6C37126F2568B11E0051345D /* libBulletSoftBody.2.89.dylib */,
+				6C3712842568B11F0051345D /* libBulletSoftBody.a */,
+				6C3712852568B11F0051345D /* libBulletWorldImporter.2.89.dylib */,
+				6C3712862568B11F0051345D /* libBulletWorldImporter.a */,
+				6C37127C2568B11E0051345D /* libBulletXmlWorldImporter.2.89.dylib */,
+				6C3712782568B11E0051345D /* libBulletXmlWorldImporter.a */,
+				6C3712742568B11E0051345D /* libConvexDecomposition.2.89.dylib */,
+				6C3712802568B11F0051345D /* libConvexDecomposition.a */,
+				6C37128E2568B11F0051345D /* libGIMPACTUtils.2.89.dylib */,
+				6C37127D2568B11E0051345D /* libGIMPACTUtils.a */,
+				6C3712752568B11E0051345D /* libHACD.2.89.dylib */,
+				6C37128F2568B11F0051345D /* libHACD.a */,
+				6C3712762568B11E0051345D /* libLinearMath.2.89.dylib */,
+				6C3712772568B11E0051345D /* libLinearMath.a */,
+				6C3712642568AEE10051345D /* libBullet3Dynamics.2.89.dylib */,
+				6CD68CAE2568ADE500027BF9 /* libBullet2FileLoader.2.89.dylib */,
+				6CD68CB62568ADE600027BF9 /* libBullet2FileLoader.a */,
+				6CD68CAC2568ADE500027BF9 /* libBullet3Collision.dylib */,
+				6CD68CB52568ADE600027BF9 /* libBullet3Common.dylib */,
+				6CD68CB12568ADE500027BF9 /* libBullet3Geometry.dylib */,
+				6CD68CAD2568ADE500027BF9 /* libBullet3OpenCL_clew.dylib */,
+				6CD68CB22568ADE500027BF9 /* libBulletCollision.dylib */,
+				6CD68CB02568ADE500027BF9 /* libBulletDynamics.dylib */,
+				6CD68CB42568ADE600027BF9 /* libBulletFileLoader.dylib */,
+				6CD68CAF2568ADE500027BF9 /* libBulletInverseDynamics.dylib */,
+				6CD68CA82568ADE500027BF9 /* libBulletInverseDynamicsUtils.dylib */,
+				6CD68CAA2568ADE500027BF9 /* libBulletRobotics.dylib */,
+				6CD68CB72568ADE600027BF9 /* libBulletSoftBody.dylib */,
+				6CD68CB32568ADE600027BF9 /* libBulletWorldImporter.dylib */,
+				6CD68CA72568ADE500027BF9 /* libBulletXmlWorldImporter.dylib */,
+				6CD68CAB2568ADE500027BF9 /* libConvexDecomposition.dylib */,
+				6CD68CA92568ADE500027BF9 /* libGIMPACTUtils.dylib */,
+				6CD68CB82568ADE600027BF9 /* libHACD.dylib */,
+				6CD68CA62568ADE500027BF9 /* libLinearMath.dylib */,
+				6CD68CA02568AD3A00027BF9 /* libBullet3Dynamics.dylib */,
+				6CD68C742568AB3F00027BF9 /* libBullet3Dynamics.a */,
+				6C6F1FBA256849250007FE16 /* libassimp.5.0.0.dylib */,
+				6C6F1FB7256844840007FE16 /* libGLEW.2.1.0.dylib */,
+				6C6F1FB32568446A0007FE16 /* libglfw.3.3.dylib */,
+				6C6F1EE125683EA40007FE16 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C6F1F6B256841E80007FE16 /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				6C6F1F6C256841E80007FE16 /* model_load_with_light.fs */,
+				6C6F1F6D256841E80007FE16 /* model_without_light.vs */,
+				6C6F1F6E256841E80007FE16 /* skyDome.vs */,
+				6C6F1F6F256841E80007FE16 /* model_without_light.fs */,
+				6C6F1F70256841E80007FE16 /* skyDome.fs */,
+				6C6F1F71256841E80007FE16 /* model_load_with_light.vs */,
+			);
+			path = shader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +519,7 @@
 				6C6F1ED225683E520007FE16 /* Sources */,
 				6C6F1ED325683E520007FE16 /* Frameworks */,
 				6C6F1ED425683E520007FE16 /* CopyFiles */,
+				6C6F1FB62568446A0007FE16 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -119,7 +567,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6F1EDA25683E520007FE16 /* main.cpp in Sources */,
+				6C6F1FA1256841EA0007FE16 /* Ray.cpp in Sources */,
+				6C6F1FAB256841EA0007FE16 /* Chunk.cpp in Sources */,
+				6C6F1FB1256841EA0007FE16 /* SingletonShader.cpp in Sources */,
+				6C6F1F96256841EA0007FE16 /* SkyDome.cpp in Sources */,
+				6C6F1FAD256841EA0007FE16 /* Model.cpp in Sources */,
+				6C6F1FA7256841EA0007FE16 /* mesh.cpp in Sources */,
+				6C6F1FB2256841EA0007FE16 /* GlobalLight.cpp in Sources */,
+				6C6F1F99256841EA0007FE16 /* HeightMapGenerator.cpp in Sources */,
+				6C6F1FAC256841EA0007FE16 /* BlockData.cpp in Sources */,
+				6C6F1FA4256841EA0007FE16 /* BlockUtil.cpp in Sources */,
+				6C6F1FB0256841EA0007FE16 /* glad.c in Sources */,
+				6C6F1FAF256841EA0007FE16 /* noise.cpp in Sources */,
+				6C6F1FAA256841EA0007FE16 /* Section.cpp in Sources */,
+				6C6F1FA8256841EA0007FE16 /* WorldInfo.cpp in Sources */,
+				6C6F1FA2256841EA0007FE16 /* texture.cpp in Sources */,
+				6C6F1F9C256841EA0007FE16 /* AABB.cpp in Sources */,
+				6C6F1FA0256841EA0007FE16 /* SingletonModel.cpp in Sources */,
+				6C6F1F9A256841EA0007FE16 /* Geometry.cpp in Sources */,
+				6C6F1F98256841EA0007FE16 /* CubemapTexture.cpp in Sources */,
+				6C6F1FA3256841EA0007FE16 /* World.cpp in Sources */,
+				6C6F1F9D256841EA0007FE16 /* Control.cpp in Sources */,
+				6C6F1F97256841EA0007FE16 /* Block.cpp in Sources */,
+				6C6F1FA5256841EA0007FE16 /* LandCoverGenerator.cpp in Sources */,
+				6C6F1F9E256841EA0007FE16 /* MyScene.cpp in Sources */,
+				6C6F1FA9256841EA0007FE16 /* math_3d.cpp in Sources */,
+				6C6F1F9F256841EA0007FE16 /* main.cpp in Sources */,
+				6C6F1F9B256841EA0007FE16 /* BlockTexture.cpp in Sources */,
+				6C6F1FA6256841EA0007FE16 /* BlockGenerator.cpp in Sources */,
+				6C6F1FAE256841EA0007FE16 /* CoordUtil.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +714,26 @@
 		6C6F1EDE25683E520007FE16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"${glad_lib}",
+					"${glfw_lib}",
+					/usr/local/lib,
+					/usr/local/Cellar/glfw/3.3.2/lib,
+					/usr/local/Cellar/glew/2.1.0_1/lib,
+					/usr/local/Cellar/assimp/5.0.1/lib,
+					"$(inherited)",
+					/usr/local/Cellar/freetype/2.10.2/lib,
+					/usr/local/Cellar/bullet/2.89/lib,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,7 +741,26 @@
 		6C6F1EDF25683E520007FE16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"${glad_lib}",
+					"${glfw_lib}",
+					/usr/local/lib,
+					/usr/local/Cellar/glfw/3.3.2/lib,
+					/usr/local/Cellar/glew/2.1.0_1/lib,
+					/usr/local/Cellar/assimp/5.0.1/lib,
+					"$(inherited)",
+					/usr/local/Cellar/freetype/2.10.2/lib,
+					/usr/local/Cellar/bullet/2.89/lib,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
