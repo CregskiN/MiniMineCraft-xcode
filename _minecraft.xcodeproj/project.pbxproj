@@ -29,7 +29,6 @@
 		6C6F1F9C256841EA0007FE16 /* AABB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F64256841E70007FE16 /* AABB.cpp */; };
 		6C6F1F9D256841EA0007FE16 /* Control.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F68256841E70007FE16 /* Control.cpp */; };
 		6C6F1F9E256841EA0007FE16 /* MyScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F72256841E80007FE16 /* MyScene.cpp */; };
-		6C6F1F9F256841EA0007FE16 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F75256841E80007FE16 /* main.cpp */; };
 		6C6F1FA0256841EA0007FE16 /* SingletonModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F76256841E80007FE16 /* SingletonModel.cpp */; };
 		6C6F1FA1256841EA0007FE16 /* Ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F79256841E80007FE16 /* Ray.cpp */; };
 		6C6F1FA2256841EA0007FE16 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C6F1F7A256841E80007FE16 /* texture.cpp */; };
@@ -55,6 +54,7 @@
 		6C6F1FB9256844840007FE16 /* libGLEW.2.1.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6C6F1FB7256844840007FE16 /* libGLEW.2.1.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		6C6F1FBB256849250007FE16 /* libassimp.5.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6F1FBA256849250007FE16 /* libassimp.5.0.0.dylib */; };
 		6C6F1FBC256849250007FE16 /* libassimp.5.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 6C6F1FBA256849250007FE16 /* libassimp.5.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6C81A457257F3F550000D63D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C81A456257F3F550000D63D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -188,7 +188,6 @@
 		6C6F1F72256841E80007FE16 /* MyScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyScene.cpp; sourceTree = "<group>"; };
 		6C6F1F73256841E80007FE16 /* Ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ray.h; sourceTree = "<group>"; };
 		6C6F1F74256841E80007FE16 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
-		6C6F1F75256841E80007FE16 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6C6F1F76256841E80007FE16 /* SingletonModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingletonModel.cpp; sourceTree = "<group>"; };
 		6C6F1F77256841E80007FE16 /* minecraft.mdproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = minecraft.mdproj; sourceTree = "<group>"; };
 		6C6F1F78256841E80007FE16 /* CoordUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordUtil.h; sourceTree = "<group>"; };
@@ -224,6 +223,7 @@
 		6C6F1FB32568446A0007FE16 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		6C6F1FB7256844840007FE16 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
 		6C6F1FBA256849250007FE16 /* libassimp.5.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.5.0.0.dylib; path = ../../../../../usr/local/Cellar/assimp/5.0.1/lib/libassimp.5.0.0.dylib; sourceTree = "<group>"; };
+		6C81A456257F3F550000D63D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6CD68C742568AB3F00027BF9 /* libBullet3Dynamics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBullet3Dynamics.a; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Dynamics.a; sourceTree = "<group>"; };
 		6CD68CA02568AD3A00027BF9 /* libBullet3Dynamics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libBullet3Dynamics.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libBullet3Dynamics.dylib; sourceTree = "<group>"; };
 		6CD68CA62568ADE500027BF9 /* libLinearMath.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLinearMath.dylib; path = ../../../../../usr/local/Cellar/bullet/2.89/lib/libLinearMath.dylib; sourceTree = "<group>"; };
@@ -355,6 +355,7 @@
 		6C6F1ED825683E520007FE16 /* _minecraft */ = {
 			isa = PBXGroup;
 			children = (
+				6C81A456257F3F550000D63D /* main.cpp */,
 				6C3712962568B7600051345D /* resources */,
 				6C6F1F64256841E70007FE16 /* AABB.cpp */,
 				6C6F1F60256841E70007FE16 /* AABB.h */,
@@ -389,7 +390,6 @@
 				6C6F1F62256841E70007FE16 /* HelloOpenGL_00.vcxproj.user */,
 				6C6F1F7E256841E90007FE16 /* LandCoverGenerator.cpp */,
 				6C6F1F69256841E70007FE16 /* LandCoverGenerator.h */,
-				6C6F1F75256841E80007FE16 /* main.cpp */,
 				6C6F1F87256841E90007FE16 /* math_3d.cpp */,
 				6C6F1F59256841E70007FE16 /* math_3d.h */,
 				6C6F1F82256841E90007FE16 /* mesh.cpp */,
@@ -591,8 +591,8 @@
 				6C6F1F97256841EA0007FE16 /* Block.cpp in Sources */,
 				6C6F1FA5256841EA0007FE16 /* LandCoverGenerator.cpp in Sources */,
 				6C6F1F9E256841EA0007FE16 /* MyScene.cpp in Sources */,
+				6C81A457257F3F550000D63D /* main.cpp in Sources */,
 				6C6F1FA9256841EA0007FE16 /* math_3d.cpp in Sources */,
-				6C6F1F9F256841EA0007FE16 /* main.cpp in Sources */,
 				6C6F1F9B256841EA0007FE16 /* BlockTexture.cpp in Sources */,
 				6C6F1FA6256841EA0007FE16 /* BlockGenerator.cpp in Sources */,
 				6C6F1FAE256841EA0007FE16 /* CoordUtil.cpp in Sources */,
